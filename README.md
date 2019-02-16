@@ -10,7 +10,11 @@ Major changes include:
 * Kernel Changes
   1. freeRTOS
 
-## Rational
+## What is ems?
+The Embedded Monitoring System is a way of developing embeded systems which may then be controlled monitored and updated using the same mechanism. EMS is initially deployed as an arduino based micontroller which talks to a python based console using a simple syntax.
+
+ 
+## Reasons to rewrite.
 Since ems was origionally written the processing power avaliable for less than $20 allows us to think about adding a real time operating system, file system based settings, and presets and other mechanisms that would not have been comfortable in an 8 bit restricted microcontroller. 
 
 # MVP
